@@ -1,0 +1,23 @@
+{
+  "name": "ionic-communicata",
+  "version": "1.0.0",
+  "description": "A chat app for Dost",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchitmonga22/DostChatApp.git"
+  },
+  "author": "Sanchit Monga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanchitmonga22/DostChatApp/issues"
+  },
+  "homepage": "https://github.com/sanchitmonga22/DostChatApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
