@@ -1,6 +1,6 @@
 export const config = {
     io : {
-       url 				: "REMOTE-ADDRESS-OF-NODE-SERVER",
-       options 			: {}
+       url:  'http://localhost:3000',
+       options: {}
     }
  };
