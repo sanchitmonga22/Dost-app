@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VolunteerActivity">
+
+    <EditText
+        android:id="@+id/volunteerEmailEditText"
+        android:layout_width="351dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="26dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/voulteerLoginButton"
+        android:layout_width="121dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="162dp"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/volunteerPasswordEditText" />
+
+    <TextView
+        android:id="@+id/volunteerRegisterButton"
+        android:layout_width="141dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="235dp"
+        android:text="New? Register Now"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/voulteerLoginButton"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <EditText
+        android:id="@+id/volunteerPasswordEditText"
+        android:layout_width="343dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="34dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/volunteerEmailEditText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
